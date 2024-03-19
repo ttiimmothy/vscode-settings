@@ -1,7 +1,7 @@
 # Vscode Settings
 [![ci](https://github.com/ttiimmothy/vscode-settings/actions/workflows/ci.yml/badge.svg)](https://github.com/ttiimmothy/vscode-settings/actions/workflows/ci.yml)
 
-Vscode Settings is for storing my vscode Settings.
+Vscode Settings is for storing vscode settings and extensions.
 
 [`.vscode/settings.json`](./.vscode/settings.json)
 
