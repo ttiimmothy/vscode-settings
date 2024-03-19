@@ -1,0 +1,366 @@
+{
+  // vscode editor configuration
+  "window.zoomLevel": -2,
+  "window.nativeTabs": true,
+  "editor.suggestSelection": "first",
+  "editor.suggest.showStatusBar": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.automationProfile.osx": {
+    "path": "/bin/zsh"
+  },
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.inheritEnv": true,
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    },
+    "rbash": {
+      "path": "/bin/rbash"
+    }
+  },
+  "files.watcherExclude": {
+    ".venv": true
+  },
+  "files.eol": "\n",
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "security.workspace.trust.enabled": false,
+  "search.useIgnoreFiles": false,
+  "explorer.sortOrder": "type",
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "workbench.startupEditor": "none",
+  "workbench.settings.applyToAllProfiles": ["terminal.integrated.fontFamily"],
+  // color
+  "workbench.colorCustomizations": {
+    "terminal.background": "#0B0C0F",
+    "terminal.foreground": "#A6AFB8",
+    "terminalCursor.background": "#a6afb8",
+    "terminalCursor.foreground": "#a6afb8",
+    "terminal.ansiBlack": "#18262f",
+    "terminal.ansiBlue": "#268074",
+    "terminal.ansiBrightBlack": "#667581",
+    "terminal.ansiBrightBlue": "#33b5e1",
+    "terminal.ansiBrightCyan": "#52cbb0",
+    "terminal.ansiBrightGreen": "#7cc844",
+    "terminal.ansiBrightMagenta": "#a363d5",
+    "terminal.ansiBrightRed": "#ef5253",
+    "terminal.ansiBrightWhite": "#f5f7fa",
+    "terminal.ansiBrightYellow": "#e4b51c",
+    "terminal.ansiCyan": "#52cbb0",
+    "terminal.ansiGreen": "#7cc844",
+    "terminal.ansiMagenta": "#a363d5",
+    "terminal.ansiRed": "#ef5253",
+    "terminal.ansiWhite": "#d3dbe4",
+    "terminal.ansiYellow": "#e4b51c"
+  },
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+
+  // material icons configuration
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.files.associations": {
+    "*.actions.ts": "ngrx-actions",
+    "*.guard.ts": "ngrx-actions",
+    "*.dto.ts": "ngrx-effects",
+    "*.effects.ts": "ngrx-effects",
+    "*.pipe.ts": "ngrx-effects",
+    "*.resolver.ts": "ngrx-effects",
+    "*.entity.ts": "ngrx-entity",
+    "*.service.ts": "ngrx-entity",
+    "*.reducer.ts": "ngrx-reducer",
+    "*.module.ts": "ngrx-reducer",
+    "*.component.ts": "ngrx-selectors",
+    "*.controller.ts": "ngrx-selectors",
+    "*.selector.ts": "ngrx-selectors",
+    "*.interface.ts": "ngrx-state",
+    "*.state.ts": "ngrx-state"
+  },
+  "material-icon-theme.folders.associations": {
+    "effects": "ngrx-effects",
+    "store": "ngrx-store"
+  },
+
+  // git and related things
+  "git.autofetch": true,
+  "git.postCommitCommand": "push",
+  "git.enableSmartCommit": true,
+  "githubPullRequests.pullBranch": "never",
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+
+  // language
+  "autopep8.args": ["--indent-size=2"],
+  "[java]": {
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[dart]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.format.insertSpaceAfterCommaDelimiter": false,
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "typescript.format.semicolons": "insert",
+  "typescript.preferences.quoteStyle": "double",
+  "typescript.suggestionActions.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "javascript.format.insertSpaceAfterCommaDelimiter": false,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "javascript.format.semicolons": "insert",
+  "javascript.preferences.quoteStyle": "double",
+  "javascript.suggestionActions.enabled": false,
+  "java.debug.settings.console": "integratedTerminal",
+  "json.schemas": [],
+  "go.toolsManagement.autoUpdate": true,
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "markdownlint.config": {
+    "default": true,
+    "MD001": false,
+    "MD004": false,
+    "MD007": {
+      "indent": 2
+    },
+    "MD012": false,
+    "MD022": false,
+    "MD023": false,
+    "MD024": false,
+    "MD025": false,
+    "MD029": false,
+    "MD033": false,
+    "MD036": false,
+    "MD040": false,
+    "MD041": false,
+    "MD047": false,
+    "no-hard-tabs": false
+  },
+  "markdown.styles": [
+    "https://cdn.jsdelivr.net/gh/dhdhagar/vscode-md-preview-light/style.min.css"
+  ],
+  "markdown-preview-github-styles.colorTheme": "light",
+
+  // files checking
+  "eslint.rules.customizations": [{ "eol-last": ["error", "never"] }],
+  "cSpell.enableFiletypes": [
+    "aspnetcorerazor",
+    "clojure",
+    "gitignore",
+    "ignore",
+    "splunk",
+    "sql",
+    "terraform",
+    "xml"
+  ],
+
+  // check spelling words in this setting.json file
+  "cSpell.userWords": [
+    "applescript",
+    "aspnetcorerazor",
+    "autofetch",
+    "autohotkey",
+    "autoit",
+    "autopep",
+    "cscript",
+    "esbenp",
+    "gfortran",
+    "haxe",
+    "ipynb",
+    "javac",
+    "kitc",
+    "lein",
+    "lessc",
+    "Meslo",
+    "mtxr",
+    "ngrx",
+    "Nologo",
+    "osascript",
+    "pwsh",
+    "rbash",
+    "Rscript",
+    "runhaskell",
+    "rustc",
+    "sbcl",
+    "scriptcs",
+    "sqltools",
+    "timoptimothy",
+    "vbscript",
+    "venv"
+  ],
+
+  // extensions
+  // jupyter notebook
+  "jupyter.interactiveWindow.creationMode": "perFile",
+  // kubernetes
+  "vs-kubernetes": {
+    "vscode-kubernetes.kubectl-path.mac": "/Users/stanley/.vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path": "/Users/stanley/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+    "vscode-kubernetes.helm-path.mac": "/Users/stanley/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+    "vscode-kubernetes.minikube-path.mac": "/Users/stanley/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+    "vscode-kubernetes.kubectl-path-mac": "/Users/timoptimothy/.vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path-mac": "/Users/timoptimothy/.vs-kubernetes/tools/minikube/darwin-arm64/minikube",
+    "vscode-kubernetes.helm-path-mac": "/Users/timoptimothy/.vs-kubernetes/tools/helm/darwin-arm64/helm"
+  },
+  // circleci
+  "circleci.hostUrl": "",
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -std=c++11 -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python -u",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "racket": "racket",
+    "scheme": "csi -script",
+    "ahk": "autohotkey",
+    "autoit": "autoit3",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runhaskell",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "lisp": "sbcl --script",
+    "kit": "kitc --run",
+    "v": "v run",
+    "sass": "sass --style expanded",
+    "scss": "scss --style expanded",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "redhat.telemetry.enabled": true
+}
