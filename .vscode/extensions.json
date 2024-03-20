@@ -111,6 +111,7 @@
     "llvm-vs-code-extensions.vscode-clangd",
     "rangav.vscode-thunder-client",
     "eamodio.gitlens",
-    "vue.vscode-typescript-vue-plugin"
+    "vue.vscode-typescript-vue-plugin",
+    "antfu.file-nesting"
   ]
 }
