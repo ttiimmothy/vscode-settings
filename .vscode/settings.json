@@ -192,6 +192,8 @@
   "java.debug.settings.console": "integratedTerminal",
   "json.schemas": [],
   "go.toolsManagement.autoUpdate": true,
+  "csharp.suppressProjectJsonWarning": true,
+  "csharp.suppressDotnetInstallWarning": true,
   "yaml.customTags": [
     "!And",
     "!And sequence",
@@ -259,6 +261,7 @@
     "terraform",
     "xml"
   ],
+  // enable spelling check only in workspace files
   "cSpell.spellCheckOnlyWorkspaceFiles": true,
 
   // check spelling words in this setting.json file
