@@ -1,7 +1,7 @@
-# Vscode Settings
-[![ci](https://github.com/ttiimmothy/vscode-settings/actions/workflows/ci.yml/badge.svg)](https://github.com/ttiimmothy/vscode-settings/actions/workflows/ci.yml)
+# Vscode Settings Extensions
+[![ci](https://github.com/ttiimmothy/vscode-settings-extensions/actions/workflows/ci.yml/badge.svg)](https://github.com/ttiimmothy/vscode-settings-extensions/actions/workflows/ci.yml)
 
-Vscode Settings is for storing vscode settings and extensions.
+Vscode Settings Extensions are for storing vscode settings and extensions.
 
 [`.vscode/settings.json`](./.vscode/settings.json)
 
@@ -10,4 +10,4 @@ Vscode Settings is for storing vscode settings and extensions.
 
 ## License
 
-Vscode Settings is licensed under [GNU General Public License v3.0](LICENSE).
+Vscode Settings Extensions is licensed under [GNU General Public License v3.0](LICENSE).
