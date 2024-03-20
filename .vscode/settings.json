@@ -248,6 +248,7 @@
 
   // files checking
   "eslint.rules.customizations": [{ "eol-last": ["error", "never"] }],
+  // check spelling enabled in file types
   "cSpell.enableFiletypes": [
     "aspnetcorerazor",
     "clojure",
@@ -258,6 +259,7 @@
     "terraform",
     "xml"
   ],
+  "cSpell.spellCheckOnlyWorkspaceFiles": true,
 
   // check spelling words in this setting.json file
   "cSpell.userWords": [
@@ -311,6 +313,7 @@
   },
   // circleci
   "circleci.hostUrl": "",
+  "redhat.telemetry.enabled": true,
   "code-runner.runInTerminal": true,
   "code-runner.executorMap": {
     "javascript": "node",
@@ -364,7 +367,7 @@
     "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
   },
-  "redhat.telemetry.enabled": true,
+
   // file nesting
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
