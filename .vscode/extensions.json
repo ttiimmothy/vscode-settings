@@ -112,6 +112,7 @@
     "rangav.vscode-thunder-client",
     "eamodio.gitlens",
     "vue.vscode-typescript-vue-plugin",
-    "antfu.file-nesting"
+    "antfu.file-nesting",
+    "GitHub.copilot"
   ]
 }
