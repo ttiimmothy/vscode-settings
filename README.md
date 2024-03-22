@@ -1,5 +1,5 @@
 # Vscode Settings
-[![ci](https://github.com/ttiimmothy/vscode-settings/actions/workflows/ci.yml/badge.svg)](https://github.com/ttiimmothy/vscode-settingscd/actions/workflows/ci.yml)
+[![ci](https://github.com/ttiimmothy/vscode-settings/actions/workflows/ci.yml/badge.svg)](https://github.com/ttiimmothy/vscode-settings/actions/workflows/ci.yml)
 
 Vscode Settings is for storing visual studio code settings and extensions.
 
