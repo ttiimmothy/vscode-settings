@@ -1,14 +1,17 @@
 {
   // vscode editor configuration
-  "window.zoomLevel": -2,
+  "window.zoomLevel": -1,
   "window.nativeTabs": true,
+  // editor
   "editor.suggestSelection": "first",
   "editor.suggest.showStatusBar": true,
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.indentSize": "tabSize",
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
+  "editor.stickyScroll.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
+  // terminal
   "terminal.integrated.defaultProfile.osx": "fish",
   "terminal.integrated.automationProfile.osx": {
     "path": "/bin/zsh"
