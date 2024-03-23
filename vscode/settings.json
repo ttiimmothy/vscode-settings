@@ -43,6 +43,7 @@
       "path": "/bin/rbash"
     }
   },
+  // files syntax
   "files.watcherExclude": {
     ".venv": true
   },
