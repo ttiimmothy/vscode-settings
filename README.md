@@ -3,9 +3,9 @@
 
 Vscode Settings is for storing visual studio code settings and extensions.
 
-[`vscode/settings.json`](./.vscode/settings.json)
+[`vscode/settings.json`](vscode/settings.json)
 
-[`vscode/extensions.json`](./.vscode/extensions.json)
+[`vscode/extensions.json`](vscode/extensions.json)
 
 ## Reminders
 
