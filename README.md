@@ -7,6 +7,10 @@ Vscode Settings is for storing visual studio code settings and extensions.
 
 [`.vscode/extensions.json`](./.vscode/extensions.json)
 
+## Reminders
+
+- [ ] can find from [Brewfile](https://github.com/ttiimmothy/dotfiles/blob/main/Brewfile)
+
 ## License
 
 Vscode Settings is licensed under [GNU General Public License v3.0](LICENSE).
