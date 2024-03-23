@@ -1,6 +1,6 @@
 {
   // vscode editor configuration
-  "window.zoomLevel": -2,
+  "window.zoomLevel": -1,
   "window.nativeTabs": true,
   // editor
   "editor.suggestSelection": "first",
