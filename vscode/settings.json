@@ -8,6 +8,8 @@
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.indentSize": "tabSize",
   "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
   "editor.formatOnSave": true,
   "editor.stickyScroll.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -123,8 +125,9 @@
   // language
   "autopep8.args": ["--indent-size=2"],
   "[java]": {
-    "editor.detectIndentation": false,
     "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
     "editor.formatOnSave": true
   },
   "[python]": {
@@ -132,6 +135,12 @@
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
     "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": true
+  },
+  "[go]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
     "editor.formatOnSave": true
   },
   "[typescriptreact]": {
