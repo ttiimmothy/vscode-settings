@@ -320,6 +320,7 @@
   // circleci
   "circleci.hostUrl": "",
   "redhat.telemetry.enabled": true,
+  "gitlab.aiAssistedCodeSuggestions.preferredAccount": "ttiimmothy",
   "code-runner.runInTerminal": true,
   "code-runner.executorMap": {
     "javascript": "node",
