@@ -9,7 +9,7 @@ Vscode Settings is for storing visual studio code settings and extensions.
 
 ## Reminders
 
-- [ ] can find from [Brewfile](https://github.com/ttiimmothy/dotfiles/blob/main/Brewfile)
+- [x] can find from [dotfiles/Brewfile](https://github.com/ttiimmothy/dotfiles/blob/main/Brewfile)
 
 ## License
 
