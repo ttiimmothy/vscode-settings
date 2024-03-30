@@ -71,6 +71,7 @@
     "ms-python.debugpy",
     "ms-python.isort",
     "ms-python.python",
+    "ms-python.vscode-pylance",
     "ms-toolsai.jupyter",
     "ms-toolsai.jupyter-renderers",
     "ms-toolsai.vscode-jupyter-cell-tags",
@@ -117,6 +118,7 @@
     "vscodevim.vim",
     "vsls-contrib.gistfs",
     "vue.volar",
-    "vue.vscode-typescript-vue-plugin"
+    "vue.vscode-typescript-vue-plugin",
+    "zhucy.project-tree"
   ]
 }
