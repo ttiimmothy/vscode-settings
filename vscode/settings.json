@@ -11,6 +11,7 @@
   "editor.detectIndentation": false,
   "editor.formatOnSave": true,
   "editor.stickyScroll.enabled": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
   "diffEditor.ignoreTrimWhitespace": false,
   // terminal
   "terminal.integrated.defaultProfile.osx": "fish",
@@ -329,7 +330,7 @@
   // circleci
   "circleci.hostUrl": "",
   "redhat.telemetry.enabled": true,
-  "gitlab.aiAssistedCodeSuggestions.preferredAccount": "ttiimmothy",
+  "gitlab.aiAssistedCodeSuggestions.preferredAccount": "",
   "code-runner.runInTerminal": true,
   "code-runner.executorMap": {
     "javascript": "node",
