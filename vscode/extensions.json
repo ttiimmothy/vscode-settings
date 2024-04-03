@@ -119,6 +119,7 @@
     "vsls-contrib.gistfs",
     "vue.volar",
     "vue.vscode-typescript-vue-plugin",
-    "zhucy.project-tree"
+    "zhucy.project-tree",
+    "ziglang.vscode-zig"
   ]
 }
