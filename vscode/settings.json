@@ -11,6 +11,7 @@
   "editor.detectIndentation": false,
   "editor.formatOnSave": true,
   "editor.stickyScroll.enabled": false,
+  "editor.accessibilitySupport": "off",
   "editor.unicodeHighlight.invisibleCharacters": false,
   "diffEditor.ignoreTrimWhitespace": false,
   // terminal
@@ -58,7 +59,6 @@
   "explorer.sortOrder": "type",
   // workbench
   "workbench.activityBar.location": "top",
-  "workbench.sideBar.location": "right",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
@@ -87,7 +87,7 @@
     "terminal.ansiWhite": "#d3dbe4",
     "terminal.ansiYellow": "#e4b51c"
   },
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Dracula Theme",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.enableStickyScroll": false,
 
@@ -315,6 +315,8 @@
   ],
 
   // extensions
+  // gitlens
+  "gitlens.launchpad.indicator.enabled": false,
   // jupyter notebook
   "jupyter.interactiveWindow.creationMode": "perFile",
   // kubernetes
