@@ -1,6 +1,6 @@
 {
-  "window.zoomLevel": -1,
   "window.nativeTabs": true,
+  "window.zoomLevel": -1,
   // editor
   "editor.suggestSelection": "first",
   "editor.suggest.showStatusBar": true,
@@ -64,6 +64,7 @@
   },
   "workbench.startupEditor": "none",
   "workbench.settings.applyToAllProfiles": ["terminal.integrated.fontFamily"],
+  "workbench.colorTheme": "Atom One Dark",
   // color
   "workbench.colorCustomizations": {
     "terminal.background": "#0B0C0F",
@@ -87,7 +88,6 @@
     "terminal.ansiWhite": "#d3dbe4",
     "terminal.ansiYellow": "#e4b51c"
   },
-  "workbench.colorTheme": "Dracula Theme",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.enableStickyScroll": false,
 
@@ -334,7 +334,6 @@
   // circleci
   "circleci.hostUrl": "",
   "redhat.telemetry.enabled": true,
-  "gitlab.aiAssistedCodeSuggestions.preferredAccount": "",
   "zig.initialSetupDone": false,
   "code-runner.runInTerminal": true,
   "code-runner.executorMap": {
