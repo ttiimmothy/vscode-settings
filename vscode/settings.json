@@ -1,5 +1,5 @@
 {
-  "window.nativeTabs": true,
+  // "window.nativeTabs": true,
   "window.zoomLevel": -1,
   // editor
   "editor.suggestSelection": "first",
@@ -12,13 +12,14 @@
   "editor.stickyScroll.enabled": false,
   "editor.accessibilitySupport": "off",
   "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.fontFamily": "MesloLGS NF",
   "diffEditor.ignoreTrimWhitespace": false,
   // terminal
   "terminal.integrated.defaultProfile.osx": "fish",
   "terminal.integrated.automationProfile.osx": {
     "path": "/bin/zsh"
   },
-  "terminal.external.osxExec": "iTerm.app",
+  "terminal.external.osxExec": "Ghostty.app",
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.tabs.enabled": true,
   "terminal.integrated.defaultProfile.linux": "bash",
@@ -56,14 +57,12 @@
   "security.workspace.trust.enabled": false,
   "search.useIgnoreFiles": false,
   "explorer.sortOrder": "type",
-  // workbench
-  "workbench.activityBar.location": "top",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
   "workbench.startupEditor": "none",
   "workbench.settings.applyToAllProfiles": ["terminal.integrated.fontFamily"],
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "Anysphere dark",
   // color
   "workbench.colorCustomizations": {
     "terminal.background": "#0B0C0F",
@@ -265,7 +264,7 @@
   // files checking
   "eslint.rules.customizations": [{ "eol-last": ["error", "never"] }],
   // check spelling enabled in file types
-  "cSpell.enableFiletypes": [
+  "cSpell.enabledFiletypes": [
     "aspnetcorerazor",
     "clojure",
     "gitignore",
@@ -475,5 +474,8 @@
     "svelte.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .envrc, .htmlnanorc*, .lighthouserc.*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, capacitor.config.*, contentlayer.config.*, cssnano.config.*, cypress.*, env.d.ts, formkit.config.*, formulate.config.*, histoire.config.*, houdini.config.*, htmlnanorc.*, i18n.config.*, ionic.config.*, jasmine.*, jest.config.*, jsconfig.*, karma*, lighthouserc.*, mdsvex.config.js, panda.config.*, playwright.config.*, postcss.config.*, puppeteer.config.*, rspack.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, uno.config.*, unocss.config.*, vite.config.*, vitest.config.*, vuetify.config.*, webpack.config.*, windi.config.*",
     "vite.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .envrc, .htmlnanorc*, .lighthouserc.*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, capacitor.config.*, contentlayer.config.*, cssnano.config.*, cypress.*, env.d.ts, formkit.config.*, formulate.config.*, histoire.config.*, htmlnanorc.*, i18n.config.*, ionic.config.*, jasmine.*, jest.config.*, jsconfig.*, karma*, lighthouserc.*, panda.config.*, playwright.config.*, postcss.config.*, puppeteer.config.*, rspack.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, uno.config.*, unocss.config.*, vitest.config.*, vuetify.config.*, webpack.config.*, windi.config.*",
     "vue.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .envrc, .htmlnanorc*, .lighthouserc.*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, capacitor.config.*, contentlayer.config.*, cssnano.config.*, cypress.*, env.d.ts, formkit.config.*, formulate.config.*, histoire.config.*, htmlnanorc.*, i18n.config.*, ionic.config.*, jasmine.*, jest.config.*, jsconfig.*, karma*, lighthouserc.*, panda.config.*, playwright.config.*, postcss.config.*, puppeteer.config.*, rspack.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, uno.config.*, unocss.config.*, vitest.config.*, vuetify.config.*, webpack.config.*, windi.config.*"
-  }
+  },
+  "@azure.argTenant": "",
+  "workbench.activityBar.location": "top",
+  "editor.minimap.enabled": false
 }
