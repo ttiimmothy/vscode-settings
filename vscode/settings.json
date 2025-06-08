@@ -1,6 +1,6 @@
 {
   // "window.nativeTabs": true,
-  "window.zoomLevel": -1,
+  "window.zoomLevel": -2,
   "window.commandCenter": false,
 
   "diffEditor.ignoreTrimWhitespace": false,
@@ -18,7 +18,7 @@
   "editor.fontFamily": "MesloLGS NF",
   "editor.minimap.enabled": false,
   // file nesting
-  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.enabled": false,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
     "//": "Last update at 27/03/2024, 12:41:56",
