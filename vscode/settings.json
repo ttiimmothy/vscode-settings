@@ -150,7 +150,7 @@
   },
   "workbench.startupEditor": "none",
   "workbench.settings.applyToAllProfiles": ["terminal.integrated.fontFamily"],
-  "workbench.colorTheme": "Anysphere dark",
+  "workbench.colorTheme": "GitHub Dark Default",
   // color
   "workbench.colorCustomizations": {
     "terminal.background": "#0B0C0F",
@@ -482,4 +482,7 @@
 
   
   "@azure.argTenant": "",
+  "typescript.suggest.enabled": false,
+  "javascript.suggest.enabled": false,
+  "tailwindCSS.suggestions": false,
 }
