@@ -150,7 +150,7 @@
   },
   "workbench.startupEditor": "none",
   "workbench.settings.applyToAllProfiles": ["terminal.integrated.fontFamily"],
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "Anysphere dark",
   // color
   "workbench.colorCustomizations": {
     "terminal.background": "#0B0C0F",
